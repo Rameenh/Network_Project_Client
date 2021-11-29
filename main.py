@@ -5,7 +5,7 @@ def main():
     clientSocket = socket(AF_INET, SOCK_STREAM)
 
     while True:
-        clientSocket.connect(('192.168.1.11', 65432))
+        clientSocket.connect(('10.0.0.1', 65432))
 
         mode = "y"
         while mode == 'y':
